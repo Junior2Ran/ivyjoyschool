@@ -1,0 +1,34 @@
+/**
+  回到顶部按钮
+**/
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: url('../img/pixel.gif') no-repeat center;
+  opacity: 0.6;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#toTop:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+#toTop span{
+  font-size: 50px;
+  color: #b9151b;
+}
+
+// 版权icp认证
+.icp{
+  background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+  background-position: -600px -96px;
+  position: relative;
+  top: 3px;
+  width: 14px;
+  height: 16px;
+  display: inline-block;
+  overflow: hidden;
+}
