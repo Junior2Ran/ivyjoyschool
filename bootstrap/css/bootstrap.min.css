@@ -4965,7 +4965,6 @@ a.badge:focus {
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: normal;
-  letter-spacing: 1px;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4978,6 +4977,9 @@ a.badge:focus {
 }
 .jumbotron .container {
   max-width: 100%;
+}
+.jumbotron img {
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
