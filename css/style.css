@@ -18,7 +18,7 @@
 }
 #toTop span{
   font-size: 50px;
-  color: #b9151b;
+  color: #00abe7;
 }
 
 /* 版权icp认证 */
@@ -31,4 +31,16 @@
   height: 16px;
   display: inline-block;
   overflow: hidden;
+}
+
+/* 报名流程 */
+ul.routine{
+  list-style: none;
+}
+ul.routine li img{
+  display: inline-block;
+}
+ul.routine li p{
+  color: #003c65;
+  margin-top: 30px;
 }

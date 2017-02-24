@@ -1279,7 +1279,7 @@ h6,
 h1,
 .h1 {
   margin-top: 44px;
-  margin-bottom: 44px;
+  margin-bottom: 66px;
   font-weight: bold;
 }
 p {
@@ -3545,13 +3545,13 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333333;
+  color: #00abe7;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #003c65;
   background-color: #f5f5f5;
 }
 .dropdown-menu > .active > a,
@@ -4262,7 +4262,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-size: 20px;
   line-height: 22px;
   height: 80px;
@@ -4316,6 +4316,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 22px;
+  text-align: bottom;
+  vertical-align: bottom;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4494,6 +4496,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-text {
   color: #777;
+}
+.navbar-default .navbar-text > a.active {
+  color: #003c65;
+  font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a {
   color: #00abe7;

@@ -164,7 +164,7 @@
 .navbar-brand {
   float: left;
   // padding: @navbar-padding-vertical @navbar-padding-horizontal;
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-size: @font-size-large;
   line-height: @line-height-computed;
   height: @navbar-height;
@@ -238,6 +238,8 @@
     padding-top:    10px;
     padding-bottom: 10px;
     line-height: @line-height-computed;
+    text-align: bottom;
+    vertical-align: bottom;
   }
 
   @media (max-width: @grid-float-breakpoint-max) {
@@ -359,6 +361,7 @@
 // Add a class to make any element properly align itself vertically within the navbars.
 
 .navbar-text {
+  // .navbar-vertical-align(@line-height-computed);
   .navbar-vertical-align(@line-height-computed);
 
   @media (min-width: @grid-float-breakpoint) {
@@ -409,6 +412,11 @@
 
   .navbar-text {
     color: @navbar-default-color;
+
+    > a.active{
+      color: @brand-secondary;
+      font-weight: bold;
+    }
   }
 
   .navbar-nav {
