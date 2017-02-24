@@ -12,13 +12,14 @@
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 
   // Prevent floats from breaking the navbar
   &:extend(.clearfix all);
 
   @media (min-width: @grid-float-breakpoint) {
     border-radius: @navbar-border-radius;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
   }
 }
 
@@ -162,7 +163,8 @@
 
 .navbar-brand {
   float: left;
-  padding: @navbar-padding-vertical @navbar-padding-horizontal;
+  // padding: @navbar-padding-vertical @navbar-padding-horizontal;
+  padding: 10px 20px;
   font-size: @font-size-large;
   line-height: @line-height-computed;
   height: @navbar-height;
@@ -425,6 +427,7 @@
       &:focus {
         color: @navbar-default-link-active-color;
         background-color: @navbar-default-link-active-bg;
+        text-decoration: underline;
       }
     }
     > .disabled > a {
