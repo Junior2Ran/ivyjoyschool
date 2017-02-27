@@ -34,12 +34,12 @@
         </div><!--end of navbar-header-->
         <div class="collapse navbar-collapse" id="example-navbar-collapse">
           <ul class="nav navbar-nav navbar-left">
-            <li class="active"><a href="index.html">首页</a></li>
-            <li class="dropdown">
+            <li><a href="index.html">首页</a></li>
+            <li class="dropdown active">
               <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">暑校介绍 <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="javascript:">关于ACES</a></li>
-                <li><a href="DLUT.html">大连理工大学</a></li>
+                <li class="active"><a href="DLUT.html">大连理工大学</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -85,64 +85,30 @@
     </nav>
   </header>
 
-  <!-- banner part -->
-  <div class="container-fluid">
-    <div class="row">
-      <!--carousel-->
-      <div class="carousel slide" data-ride="carousel" id="carousel-example">  
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active"><img src="img/banner-1.jpg" alt="1" class="img-responsive"></div>
-          <div class="item"><img src="img/banner-2.jpg" alt="2" class="img-responsive"></div>
-        </div>
-        <a href="#carousel-example" class="carousel-control left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-        <a href="#carousel-example" class="carousel-control right" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  <!-- 二级页面大图 -->
+  <section class="container-fluid">
+    <div class="row"><img src="img/second.jpg" alt="" class="img-responsive second"></div>
+  </section>
+
+  <div class="container">
+    <!-- side bar -->
+    <div class="col-xs-3">
+      <div class="sidebar">
+        <ul class="bluebg side-header">暑校介绍</ul>
+        <a href=""><li class="side-list">关于ACES<span class="pull-right">></span></li></a>
+        <a href="DLUT.html"><li class="side-list active last">大连理工大学<span class="pull-right">></span></li></a>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="col-xs-9">
+      <div class="content">
+        <h2>大连理工大学</h2>
+        <h5>赤壁代替:</h5>
+        <p>阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方阿斯顿发生大法是大法师大法是大法师大法上帝发誓地方</p>
       </div>
     </div>
   </div>
-  
-  <!-- 暑校简介 -->
-  <section class="jumbotron">
-    <div class="container text-center">
-      <h1 class="secondary-color">关于暑校</h1>
-      <p class="col-sm-10 col-sm-offset-1">2017年夏天，大连理工大学联手ACES国际暑校为留美本科生、国内高中/本科生引进北美标准课程，助力你的留学之路。更有名企实习计划、特邀嘉宾演讲、非学分课程等，多方面提升个人实力。这个夏天，ACES国际暑校让你成为真正的ACE！</p>
-      <ul class="routine">
-        <li class="col-xs-3">1</li>
-        <li class="col-xs-3">1</li>
-        <li class="col-xs-3">1</li>
-        <li class="col-xs-3">1</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- 课程介绍 -->
-  <section class="container-fluid text-center">
-    <h1 class="secondary-color">课程介绍</h1>
-    <div class="row"><img src="img/kcjs.jpg" alt="" class="img-responsive"></div>
-  </section>
-
-  <!-- 报名流程 -->
-  <section class="jumbotron">
-    <div class="container-fluid text-center">
-      <h1>报名流程</h1>
-      <ul class="routine clearfix">
-        <li class="col-sm-2 col-sm-offset-1 col-xs-4"><img src="img/bmlc-1.png" alt="" class="img-responsive"><p>扫码咨询客服</p></li>
-        <li class="col-sm-2 col-xs-4"><img src="img/bmlc-2.png" alt="" class="img-responsive"><p>下载填写申请表</p></li>
-        <li class="col-sm-2 col-xs-4"><img src="img/bmlc-3.png" alt="" class="img-responsive"><p>完成报名缴费</p></li>
-        <li class="col-sm-2 col-sm-offset-0 col-xs-4 col-xs-offset-2"><img src="img/bmlc-4.png" alt="" class="img-responsive"><p>按时报到上课</p></li>
-        <li class="col-sm-2 col-xs-4"><img src="img/bmlc-5.png" alt="" class="img-responsive"><p>出成绩转学分</p></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- 课程安排 -->
-  <section class="container-fluid text-center">
-    <h1>课程安排</h1>
-    <div class="row"><img src="img/kcap.jpg" alt="" class="img-responsive"></div>
-  </section>
 
   <!-- contact us -->
   <section class="jumbotron bluebg">

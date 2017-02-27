@@ -1282,6 +1282,18 @@ h1,
   margin-bottom: 66px;
   font-weight: bold;
 }
+h2,
+.h2 {
+  font-weight: bold;
+  margin: 10px 0 30px;
+}
+h5,
+.h5 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+  margin: 10px 0 20px;
+}
 p {
   margin: 0 0 11px;
 }
@@ -3557,10 +3569,10 @@ tbody.collapse.in {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #fff;
+  color: #003c65;
   text-decoration: none;
   outline: 0;
-  background-color: #00abe7;
+  background-color: #eee;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -6753,4 +6765,7 @@ body {
 }
 .secondary-color {
   color: #003c65;
+}
+.bluebg {
+  background-color: #3bafda;
 }

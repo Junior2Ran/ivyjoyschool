@@ -88,3 +88,44 @@ ul.routine li p{
   top: 9px;
   left: -16px;
 }
+
+.second{margin-bottom: 60px;}
+
+/** sidebar **/
+.sidebar{
+  min-height: 190px;
+  border: 2px solid #3bafda;
+  list-style: none;
+  margin-bottom: 60px;
+}
+.sidebar ul.side-header{
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.sidebar a{
+  text-decoration: none;
+  color: #333;
+}
+.sidebar a:hover{
+  color: #3bafda;
+}
+.sidebar li{
+  min-height: 30px;
+  border-bottom: 2px solid #3bafda;
+  margin: 20px;
+  padding: 0 2px 20px;
+}
+.sidebar li.active{
+  color: #3bafda;
+}
+.sidebar li.last{
+  border: none;
+  margin: 20px 20px 0;
+}
+
+/** content **/
+.content{
+  margin-bottom: 60px;
+}
